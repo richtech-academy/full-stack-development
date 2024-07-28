@@ -1,0 +1,9 @@
+
+Bank 
+
+Account opening
+
+18 >  Solo account 
+
+18 < Join Account
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input, select{
+            padding: 7px;
+            border: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        #formContainer{
+            padding: 30px;
+        }
+        #terms{
+            color: white;
+        }
+        #buttonSubmit{
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body style="background-color: darkblue;">
+    <div style="background-color: blue;" id="formContainer">
+        <form action="formSubmit.php" method="post">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="username"  placeholder="Username">
+            <input type="text" name="password"  placeholder="Password">
+            <input type="text" name="confirmPassword" placeholder="Confirm Password">
+            <input type="date" name="dateOfBirth" placeholder="Date of Birth">
+
+            <select name="country" id="">
+                <option value="">Select Country</option>
+                <option value="India">India</option>
+            </select>
+
+            <!-- <input type="text" placeholder="Country"> -->
+             <br>
+            <input type="radio" name="isAccepted" > <span id="terms">I accept Terms and condition</span>
+            <br>
+            <input type="Submit" id="buttonSubmit">
+        </form>
+    </div>
+</body>
+</html>
